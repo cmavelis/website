@@ -1,6 +1,12 @@
 <template>
   <div>
-    <v-card-title>Teams</v-card-title>
+    <v-card-title>
+      {{
+        $t(
+          "components_player_tabs_playerarrangedteamtab.title"
+        )
+      }}
+    </v-card-title>
     <br />
     <v-card-text>
       <v-row>
